@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html,
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background:linear-gradient(to bottom, rgb(36, 88, 185),rgb(189, 211, 253));
+    height: 225px;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+header h1{
+    font-size: 1.5rem;
+}
+
+header h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#numeros-texto-img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -95px;
+}
+
+#numeros-texto-img img{
+    border-radius:200px ;
+    height: 200px;
+    border:solid 5px ;
+    border-color: cornflowerblue;
+    box-shadow: 0 0 20px rgb(9, 61, 156); 
+}
+#numeros-texto-img .numero{
+    color:rgb(18, 85, 211);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#numeros-texto-img .texto-cinza{
+    color: rgb(5, 24, 59);
+    font-size: 1rem;
+}
+
+#seguidores-seguindo{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#sobre{
+    background-color: rgb(200, 213, 236);
+     padding:32px;
+}
+
+#sobre h1{
+    color:rgb(36, 88, 185); 
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+#sobre p{
+    line-height: 2rem;
+}
+
+#seguir{
+    padding: 3rem;
+}
+
+#seguir a{
+    display: block;
+    background:rgb(2, 46, 128);
+    color: white;
+    border-radius: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.25rem;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+@media screen and (min-width: 960px){
+    body{
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    #sobre {
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        text-align: center;
+
+    }
+
+    #seguir{
+        padding: 3rem;
+        margin: 5rem auto;
+        width: 40vw;
+    }
+    header{
+        align-items: center;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
